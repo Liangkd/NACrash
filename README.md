@@ -20,6 +20,12 @@
 - [Coming soon] Release the **Datasets**, **NACrash-Bench**, and evaluation code.
 
 
+## 🔗 Related Works from Our Group
+
+- **[CrashChat](https://github.com/Liangkd/CrashChat)**: A Multimodal Large Language Model for Multitask Traffic Crash Video Analysis. [![ICPR](https://img.shields.io/badge/ICPR-2026-4B8BBE.svg)](https://github.com/Liangkd/CrashChat) [![arXiv](https://img.shields.io/badge/Arxiv-2512.18878-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2512.18878) [![GitHub](https://img.shields.io/github/stars/Liangkd/CrashChat?style=social)](https://github.com/Liangkd/CrashChat)
+- **[CCFM](https://github.com/KELISBU/CCFM)**: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation. [![ECCV](https://img.shields.io/badge/ECCV-2026-4B8BBE.svg)](https://github.com/KELISBU/CCFM) [![arXiv](https://img.shields.io/badge/Arxiv-2607.04451-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2607.04451) [![GitHub](https://img.shields.io/github/stars/KELISBU/CCFM?style=social)](https://github.com/KELISBU/CCFM)
+
+
 ## 🌟 Introduction
 - **NACrash** is a richly annotated dashcam crash video dataset collected from North American traffic environments. NACrash contains **4,024** video clips, comprising approximately **1.21 million frames** and **11.2 hours** of footage, with dense natural-language descriptions, multi-attribute annotations based on standards-aligned crash taxonomies, and **33,933** question-answering (QA) pairs. Our main contributions are:
   - (1) a vision-language dataset for understanding safety-critical video events, which provides standardized crash attributes following the Model Minimum Uniform Crash Criteria (MMUCC) guideline, dense natural-language descriptions, and 33,933 QA pairs;
@@ -141,12 +147,6 @@ Coming soon.
 ## ✅ Evaluation
 
 Coming soon.
-
-
-## 🔗 Related Works from Our Group
-
-- **[CrashChat](https://github.com/Liangkd/CrashChat)**: A Multimodal Large Language Model for Multitask Traffic Crash Video Analysis. [![ICPR](https://img.shields.io/badge/ICPR-2026-4B8BBE.svg)](https://github.com/Liangkd/CrashChat) [![arXiv](https://img.shields.io/badge/Arxiv-2512.18878-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2512.18878) [![GitHub](https://img.shields.io/github/stars/Liangkd/CrashChat?style=social)](https://github.com/Liangkd/CrashChat)
-- **[CCFM](https://github.com/KELISBU/CCFM)**: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation. [![ECCV](https://img.shields.io/badge/ECCV-2026-4B8BBE.svg)](https://github.com/KELISBU/CCFM) [![arXiv](https://img.shields.io/badge/Arxiv-2607.04451-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2607.04451) [![GitHub](https://img.shields.io/github/stars/KELISBU/CCFM?style=social)](https://github.com/KELISBU/CCFM)
 
 
 ## 📑 Citation
