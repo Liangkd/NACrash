@@ -2,7 +2,7 @@
 
 <h2 align="center"> <a href="">NACrash: A Densely Annotated North American Crash Video Dataset and Benchmark for Multimodal Large Language Models</a></h2>
 
-<h4 align="center"> <a href="https://liangkd.github.io/">Kaidi Liang</a>, [TODO: Co-authors] </h4>
+<h4 align="center"> <a href="https://liangkd.github.io/">Kaidi Liang</a>, <a href="https://kelisbu.github.io/">Ke Li</a></h4>
 
 <h5 align="center"> If our project helps you, please give us a star ⭐ on GitHub to support us. 🙏🙏 </h5>
 
@@ -143,6 +143,12 @@ Coming soon.
 Coming soon.
 
 
+## 🔗 Related Works from Our Group
+
+- **[CrashChat](https://github.com/Liangkd/CrashChat)**: A Multimodal Large Language Model for Multitask Traffic Crash Video Analysis. [![ICPR](https://img.shields.io/badge/ICPR-2026-4B8BBE.svg)](https://github.com/Liangkd/CrashChat) [![arXiv](https://img.shields.io/badge/Arxiv-2512.18878-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2512.18878) [![GitHub](https://img.shields.io/github/stars/Liangkd/CrashChat?style=social)](https://github.com/Liangkd/CrashChat)
+- **[CCFM](https://github.com/KELISBU/CCFM)**: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation. [![ECCV](https://img.shields.io/badge/ECCV-2026-4B8BBE.svg)](https://github.com/KELISBU/CCFM) [![arXiv](https://img.shields.io/badge/Arxiv-2607.04451-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2607.04451) [![GitHub](https://img.shields.io/github/stars/KELISBU/CCFM?style=social)](https://github.com/KELISBU/CCFM)
+
+
 ## 📑 Citation
 
 If you find NACrash useful for your research and applications, please cite using this BibTeX:
@@ -150,7 +156,7 @@ If you find NACrash useful for your research and applications, please cite using
 ```bibtex
 @inproceedings{liang2027nacrash,
   title     = {NACrash: A Densely Annotated North American Crash Video Dataset and Benchmark for Multimodal Large Language Models},
-  author    = {Liang, Kaidi and [TODO: Co-authors]},
+  author    = {Liang, Kaidi and Li, Ke},
   booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
   year      = {2027}
 }
