@@ -2,7 +2,7 @@
 
 <h2 align="center"> <a href="">NACrash: A Densely Annotated North American Crash Video Dataset and Benchmark for Multimodal Large Language Models</a></h2>
 
-<h4 align="center"> <a href="https://liangkd.github.io/">Kaidi Liang</a>, <a href="https://kelisbu.github.io/">Ke Li</a></h4>
+<h4 align="center"> <a href="https://liangkd.github.io/">Kaidi Liang</a>, <a href="https://kelisbu.github.io/">Ke Li</a>, Debojyoti Biswas, Yuxin Ding, Xianbiao Hu, Ruwen Qin</h4>
 
 <h5 align="center"> If our project helps you, please give us a star ⭐ on GitHub to support us. 🙏🙏 </h5>
 
@@ -15,7 +15,7 @@
 </h5>
 
 ## 📰 News
-- [26.10.16] ![NEW!](https://img.shields.io/badge/NEW!-red) Our paper has been accepted by **WACV 2027 (Datasets Track)**. 🎉🎉🎉
+- [26.10.16] ![NEW!](https://img.shields.io/badge/NEW!-red) Our paper has been accepted by **WACV 2027 (Evaluations and Datasets Track)**. 🎉🎉🎉
 - [26.10.16] Release the initial version of **NACrash**.
 - [Coming soon] Release the **Datasets**, **NACrash-Bench**, and evaluation code.
 
@@ -156,7 +156,7 @@ If you find NACrash useful for your research and applications, please cite using
 ```bibtex
 @inproceedings{liang2027nacrash,
   title     = {NACrash: A Densely Annotated North American Crash Video Dataset and Benchmark for Multimodal Large Language Models},
-  author    = {Liang, Kaidi and Li, Ke},
+  author    = {Liang, Kaidi and Li, Ke and Biswas, Debojyoti and Ding, Yuxin and Hu, Xianbiao and Qin, Ruwen},
   booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
   year      = {2027}
 }
