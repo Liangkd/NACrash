@@ -9,7 +9,6 @@
 <h5 align="center">
 
 [![WACV](https://img.shields.io/badge/WACV-2027-4B8BBE.svg)](https://wacv.thecvf.com/)
-[![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoints-9C276A.svg)]()
 [![hf_dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)]()
 [![paper](https://img.shields.io/badge/Paper-PDF-red)]()
 [![arXiv](https://img.shields.io/badge/Arxiv-Coming%20Soon-AD1C18.svg?logo=arXiv)]()
@@ -18,7 +17,7 @@
 ## 📰 News
 - [26.10.16] ![NEW!](https://img.shields.io/badge/NEW!-red) Our paper has been accepted by **WACV 2027 (Datasets Track)**. 🎉🎉🎉
 - [26.10.16] Release the initial version of **NACrash**.
-- [Coming soon] Release the **Datasets**, **NACrash-Bench**, evaluation code, and fine-tuned **Weights**.
+- [Coming soon] Release the **Datasets**, **NACrash-Bench**, and evaluation code.
 
 
 ## 🌟 Introduction
@@ -122,31 +121,6 @@ Based on these annotations, we formulate nine crash video understanding tasks sp
 
 **Bold** indicates the best performance in each column.
 </details>
-
-<details>
-  <summary>💡Click here to show temporal localization performance of Qwen3-VL fine-tuned on NACrash</summary>
-
-| Model | Crash mIoU | Crash Hit30 | Crash Hit50 | Crash Hit70 | Pre-crash mIoU | Pre-crash Hit30 | Pre-crash Hit50 | Pre-crash Hit70 |
-|---|---|---|---|---|---|---|---|---|
-| Qwen3-VL-2B (fine-tuned) | 0.452 | 0.630 | 0.429 | 0.261 | 0.357 | 0.440 | 0.375 | 0.291 |
-| Qwen3-VL-4B (fine-tuned) | 0.459 | 0.635 | 0.433 | 0.265 | 0.396 | 0.496 | 0.421 | 0.313 |
-| Qwen3-VL-8B (fine-tuned) | 0.460 | 0.640 | 0.441 | 0.273 | 0.405 | 0.505 | 0.425 | 0.329 |
-| Qwen3-VL-32B (fine-tuned) | **0.484** | **0.670** | **0.465** | **0.305** | **0.420** | **0.534** | **0.436** | **0.336** |
-
-Models are fine-tuned on the non-benchmark portion of NACrash; NACrash-Bench is strictly excluded from training.
-</details>
-
-
-
-
-## 🤖 Model Zoo (Fine-tuned Checkpoints)
-
-| Checkpoint | MLLM backbone | Training Data | Link |
-|----------|-------------|-------------|--------------|
-| NACrash-Qwen3-VL-2B | Qwen3-VL 2B | NACrash (non-benchmark) | Coming soon |
-| NACrash-Qwen3-VL-4B | Qwen3-VL 4B | NACrash (non-benchmark) | Coming soon |
-| NACrash-Qwen3-VL-8B | Qwen3-VL 8B | NACrash (non-benchmark) | Coming soon |
-| NACrash-Qwen3-VL-32B | Qwen3-VL 32B | NACrash (non-benchmark) | Coming soon |
 
 
 
