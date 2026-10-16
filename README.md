@@ -2,7 +2,7 @@
 
 <h2 align="center"> <a href="">NACrash: A Densely Annotated North American Crash Video Dataset and Benchmark for Multimodal Large Language Models</a></h2>
 
-<h4 align="center"> <a href="https://liangkd.github.io/">Kaidi Liang</a>, <a href="https://kelisbu.github.io/">Ke Li</a>, Debojyoti Biswas, Yuxin Ding, Xianbiao Hu, Ruwen Qin</h4>
+<h4 align="center"> <a href="https://liangkd.github.io/">Kaidi Liang</a>, <a href="https://kelisbu.github.io/">Ke Li</a>, Debojyoti Biswas, Yuxin Ding, Xianbiao Hu, Ruwen Qin*</h4>
 
 <h5 align="center"> If our project helps you, please give us a star ⭐ on GitHub to support us. 🙏🙏 </h5>
 
