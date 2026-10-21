@@ -154,7 +154,7 @@ annotations
 
 - **Nexar subset:** video clips are available on [Hugging Face](https://huggingface.co/datasets/KDliang/NACrash), distributed strictly in accordance with the redistribution permissions and licensing terms (Nexar Open Data License) of the original Nexar dataset. Please log in to Hugging Face and accept the license terms to access the videos.
 - **YouTube subset:** we release only source URLs and annotations, without redistributing the original videos. If you are unable to obtain the complete videos through the YouTube links, please contact kaidi.liang@stonybrook.edu, and we will provide a private download link. Please make sure that the data will **not** be used for any commercial purposes.
-- **License:** NACrash-created artifacts (annotations, QA pairs, and benchmark metadata) are released under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. Copyright and ownership of all original videos remain with their respective content owners or data providers.
+- **License:** NACrash-created artifacts (annotations, QA pairs, and benchmark metadata) are released under the [CC BY-NC 4.0](LICENSE) license. Copyright and ownership of all original videos remain with their respective content owners or data providers.
 
 
 ## 📑 Citation
