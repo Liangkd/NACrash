@@ -17,7 +17,8 @@
 ## 📰 News
 - [26.10.16] ![NEW!](https://img.shields.io/badge/NEW!-red) Our paper has been accepted by **WACV 2027 (Evaluations and Datasets Track)**. 🎉🎉🎉
 - [26.10.16] Release the initial version of **NACrash**.
-- [Coming soon] Release the **Datasets**, **NACrash-Bench**, and evaluation code.
+- [26.10.21] ![NEW!](https://img.shields.io/badge/NEW!-red) Release the [annotations](annotations) of **NACrash** and **NACrash-Bench**.
+- [Coming soon] Release the videos and evaluation code.
 
 
 ## 🔗 Related Works from Our Group
@@ -132,7 +133,24 @@ Based on these annotations, we formulate nine crash video understanding tasks sp
 
 ## 📦 Data Release
 
-The dataset, NACrash-Bench, and evaluation code will be released soon. Stay tuned!
+The annotations of NACrash and NACrash-Bench are available in [annotations](annotations). The videos and evaluation code will be released soon. Stay tuned!
+
+```bash
+annotations
+├── NACrash_annotation_final.xlsx                         # per-video attribute annotations (4,024 videos)
+├── JSON_ALL                                              # QA pairs of the full NACrash (33,920)
+│   ├── NACrash_all_ALL.json
+│   ├── NACrash_all_ALL.jsonl
+│   ├── NACrash_all_atmospheric_recognition.jsonl
+│   ├── ...
+│   └── NACrash_all_urban_rural_classification.jsonl
+└── JSON_benchmark                                        # QA pairs of NACrash-Bench (8,700)
+    ├── NACrash_bench_ALL.json
+    ├── NACrash_bench_ALL.jsonl
+    ├── NACrash_bench_atmospheric_recognition.jsonl
+    ├── ...
+    └── NACrash_bench_urban_rural_classification.jsonl
+```
 
 - **Nexar subset:** video clips and annotations will be distributed strictly in accordance with the redistribution permissions and licensing terms of the original Nexar dataset.
 - **YouTube subset:** we release only source URLs and annotations, without redistributing the original videos.
