@@ -157,16 +157,6 @@ annotations
 - **License:** NACrash-created artifacts (annotations, QA pairs, and benchmark metadata) will be released under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. Copyright and ownership of all original videos remain with their respective content owners or data providers.
 
 
-## 🛠️ Requirements and Installation
-
-Coming soon.
-
-
-## ✅ Evaluation
-
-Coming soon.
-
-
 ## 📑 Citation
 
 If you find NACrash useful for your research and applications, please cite using this BibTeX:
