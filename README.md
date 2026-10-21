@@ -27,8 +27,8 @@
 
 
 ## 🌟 Introduction
-- **NACrash** is a richly annotated dashcam crash video dataset collected from North American traffic environments. NACrash contains **4,024** video clips, comprising approximately **1.21 million frames** and **11.2 hours** of footage, with dense natural-language descriptions, multi-attribute annotations based on standards-aligned crash taxonomies, and **33,933** question-answering (QA) pairs. Our main contributions are:
-  - (1) a vision-language dataset for understanding safety-critical video events, which provides standardized crash attributes following the Model Minimum Uniform Crash Criteria (MMUCC) guideline, dense natural-language descriptions, and 33,933 QA pairs;
+- **NACrash** is a richly annotated dashcam crash video dataset collected from North American traffic environments. NACrash contains **4,024** video clips, comprising approximately **2.55 million frames** and **23.6 hours** of footage, with dense natural-language descriptions, multi-attribute annotations based on standards-aligned crash taxonomies, and **33,920** question-answering (QA) pairs. Our main contributions are:
+  - (1) a vision-language dataset for understanding safety-critical video events, which provides standardized crash attributes following the Model Minimum Uniform Crash Criteria (MMUCC) guideline, dense natural-language descriptions, and 33,920 QA pairs;
   - (2) a semi-automatic, multi-dimensional annotation pipeline based on standardized crash terminology and taxonomies, enabling scalable dense annotations;
   - (3) **NACrash-Bench**, a balanced benchmark containing **1,000 videos** and **8,700 QA pairs** with strict balancing over collision types and collision manners;
   - (4) a comprehensive evaluation of 13 general-purpose and 2 crash-specific MLLM configurations across nine crash video understanding tasks, with an in-depth analysis of the capabilities and limitations of existing models.
@@ -89,9 +89,9 @@ Based on these annotations, we formulate nine crash video understanding tasks sp
 
 | Split | # Videos | # QA pairs | Usage |
 |-------|---------:|-----------:|-------|
-| NACrash (all) | 4,024 | 33,933 | Full dataset |
+| NACrash (all) | 4,024 | 33,920 | Full dataset |
 | NACrash-Bench | 1,000 | 8,700 | Balanced benchmark for evaluation |
-| NACrash (non-benchmark) | 3,024 | 25,233 | Training / fine-tuning |
+| NACrash (non-benchmark) | 3,024 | 25,220 | Training / fine-tuning |
 
 
 ## 🤗 Example Outputs
