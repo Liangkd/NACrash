@@ -18,7 +18,8 @@
 - [26.10.16] ![NEW!](https://img.shields.io/badge/NEW!-red) Our paper has been accepted by **WACV 2027 (Evaluations and Datasets Track)**. 🎉🎉🎉
 - [26.10.16] Release the initial version of **NACrash**.
 - [26.10.21] ![NEW!](https://img.shields.io/badge/NEW!-red) Release the [annotations](annotations) of **NACrash** and **NACrash-Bench**.
-- [Coming soon] Release the videos and evaluation code.
+- [26.10.21] ![NEW!](https://img.shields.io/badge/NEW!-red) Release the Nexar-sourced videos of **NACrash** on [Hugging Face](https://huggingface.co/datasets/KDliang/NACrash).
+- [Coming soon] Release the evaluation code.
 
 
 ## 🔗 Related Works from Our Group
@@ -133,7 +134,7 @@ Based on these annotations, we formulate nine crash video understanding tasks sp
 
 ## 📦 Data Release
 
-The annotations of NACrash and NACrash-Bench are available in [annotations](annotations). The videos and evaluation code will be released soon. Stay tuned!
+The annotations of NACrash and NACrash-Bench are available in [annotations](annotations). The Nexar-sourced videos are available on [Hugging Face](https://huggingface.co/datasets/KDliang/NACrash).
 
 ```bash
 annotations
@@ -152,9 +153,9 @@ annotations
     └── NACrash_bench_urban_rural_classification.jsonl
 ```
 
-- **Nexar subset:** video clips are available on [Hugging Face](https://huggingface.co/datasets/KDliang/NACrash), distributed strictly in accordance with the redistribution permissions and licensing terms (Nexar Open Data License) of the original Nexar dataset.
-- **YouTube subset:** we release only source URLs and annotations, without redistributing the original videos.
-- **License:** NACrash-created artifacts (annotations, QA pairs, and benchmark metadata) will be released under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. Copyright and ownership of all original videos remain with their respective content owners or data providers.
+- **Nexar subset:** video clips are available on [Hugging Face](https://huggingface.co/datasets/KDliang/NACrash), distributed strictly in accordance with the redistribution permissions and licensing terms (Nexar Open Data License) of the original Nexar dataset. Please log in to Hugging Face and accept the license terms to access the videos.
+- **YouTube subset:** we release only source URLs and annotations, without redistributing the original videos. If you are unable to obtain the complete videos through the YouTube links, please contact kaidi.liang@stonybrook.edu, and we will provide a private download link. Please make sure that the data will **not** be used for any commercial purposes.
+- **License:** NACrash-created artifacts (annotations, QA pairs, and benchmark metadata) are released under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. Copyright and ownership of all original videos remain with their respective content owners or data providers.
 
 
 ## 📑 Citation
