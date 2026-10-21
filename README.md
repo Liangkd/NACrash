@@ -9,7 +9,7 @@
 <h5 align="center">
 
 [![WACV](https://img.shields.io/badge/WACV-2027-4B8BBE.svg)](https://wacv.thecvf.com/)
-[![hf_dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)]()
+[![hf_dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/KDliang/NACrash)
 [![paper](https://img.shields.io/badge/Paper-PDF-red)]()
 [![arXiv](https://img.shields.io/badge/Arxiv-Coming%20Soon-AD1C18.svg?logo=arXiv)]()
 </h5>
@@ -152,7 +152,7 @@ annotations
     └── NACrash_bench_urban_rural_classification.jsonl
 ```
 
-- **Nexar subset:** video clips and annotations will be distributed strictly in accordance with the redistribution permissions and licensing terms of the original Nexar dataset.
+- **Nexar subset:** video clips are available on [Hugging Face](https://huggingface.co/datasets/KDliang/NACrash), distributed strictly in accordance with the redistribution permissions and licensing terms (Nexar Open Data License) of the original Nexar dataset.
 - **YouTube subset:** we release only source URLs and annotations, without redistributing the original videos.
 - **License:** NACrash-created artifacts (annotations, QA pairs, and benchmark metadata) will be released under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. Copyright and ownership of all original videos remain with their respective content owners or data providers.
 
