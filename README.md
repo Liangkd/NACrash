@@ -9,7 +9,7 @@
 <h5 align="center">
 
 [![WACV](https://img.shields.io/badge/WACV-2027-4B8BBE.svg)](https://wacv.thecvf.com/)
-[![hf_dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/KDliang/NACrash)
+[![hf_dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)]()
 [![paper](https://img.shields.io/badge/Paper-PDF-red)]()
 [![arXiv](https://img.shields.io/badge/Arxiv-Coming%20Soon-AD1C18.svg?logo=arXiv)]()
 </h5>
@@ -17,8 +17,7 @@
 ## 📰 News
 - [26.10.16] ![NEW!](https://img.shields.io/badge/NEW!-red) Our paper has been accepted by **WACV 2027 (Evaluations and Datasets Track)**. 🎉🎉🎉
 - [26.10.16] Release the initial version of **NACrash**.
-- [26.10.21] ![NEW!](https://img.shields.io/badge/NEW!-red) Release the [annotations](annotations) of **NACrash** and **NACrash-Bench**.
-- [26.10.21] ![NEW!](https://img.shields.io/badge/NEW!-red) Release the Nexar-sourced videos of **NACrash** on [Hugging Face](https://huggingface.co/datasets/KDliang/NACrash).
+- [Coming soon] Release the **NACrash** dataset and **NACrash-Bench**.
 
 
 ## 🔗 Related Works from Our Group
@@ -133,28 +132,7 @@ Based on these annotations, we formulate nine crash video understanding tasks sp
 
 ## 📦 Data Release
 
-The annotations of NACrash and NACrash-Bench are available in [annotations](annotations). The Nexar-sourced videos are available on [Hugging Face](https://huggingface.co/datasets/KDliang/NACrash).
-
-```bash
-annotations
-├── NACrash_annotation_final.xlsx                         # per-video attribute annotations (4,024 videos)
-├── JSON_ALL                                              # QA pairs of the full NACrash (33,920)
-│   ├── NACrash_all_ALL.json
-│   ├── NACrash_all_ALL.jsonl
-│   ├── NACrash_all_atmospheric_recognition.jsonl
-│   ├── ...
-│   └── NACrash_all_urban_rural_classification.jsonl
-└── JSON_benchmark                                        # QA pairs of NACrash-Bench (8,700)
-    ├── NACrash_bench_ALL.json
-    ├── NACrash_bench_ALL.jsonl
-    ├── NACrash_bench_atmospheric_recognition.jsonl
-    ├── ...
-    └── NACrash_bench_urban_rural_classification.jsonl
-```
-
-- **Nexar subset:** video clips are available on [Hugging Face](https://huggingface.co/datasets/KDliang/NACrash), distributed strictly in accordance with the redistribution permissions and licensing terms (Nexar Open Data License) of the original Nexar dataset. Please log in to Hugging Face and accept the license terms to access the videos.
-- **YouTube subset:** we release only source URLs and annotations, without redistributing the original videos. If you are unable to obtain the complete videos through the YouTube links, please contact kaidi.liang@stonybrook.edu, and we will provide a private download link. Please make sure that the data will **not** be used for any commercial purposes.
-- **License:** NACrash-created artifacts (annotations, QA pairs, and benchmark metadata) are released under the [CC BY-NC 4.0](LICENSE) license. Copyright and ownership of all original videos remain with their respective content owners or data providers.
+Coming soon. Stay tuned!
 
 
 ## 📑 Citation
