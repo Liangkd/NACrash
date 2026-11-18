@@ -17,8 +17,8 @@
 ## 📰 News
 - [26.10.16] ![NEW!](https://img.shields.io/badge/NEW!-red) Our paper has been accepted by **WACV 2027 (Evaluations and Datasets Track)**. 🎉🎉🎉
 - [26.10.16] Release the initial version of **NACrash**.
-- [26.10.21] ![NEW!](https://img.shields.io/badge/NEW!-red) Release the [annotations](annotations) of **NACrash** and **NACrash-Bench**.
-- [26.10.21] ![NEW!](https://img.shields.io/badge/NEW!-red) Release the Nexar-sourced videos of **NACrash** on [Hugging Face](https://huggingface.co/datasets/KDliang/NACrash).
+- [26.11.18] ![NEW!](https://img.shields.io/badge/NEW!-red) Release the [annotations](annotations) of **NACrash** and **NACrash-Bench**.
+- [26.11.18] ![NEW!](https://img.shields.io/badge/NEW!-red) Release the Nexar-sourced videos of **NACrash** on [Hugging Face](https://huggingface.co/datasets/KDliang/NACrash).
 
 
 ## 🔗 Related Works from Our Group
